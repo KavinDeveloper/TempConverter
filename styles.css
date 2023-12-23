@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #4285f4;
+    margin-bottom: 20px;
+}
+
+.temperature-inputs {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 90%; /* Increased width for a larger box */
+    padding: 15px; /* Increased padding for a larger box */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Increased border radius for a smoother look */
+    font-size: 16px; /* Increased font size for better readability */
+}
